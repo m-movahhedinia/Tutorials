@@ -51,8 +51,9 @@
 /* If you want the content centered horizontally and vertically */
 .centered {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
+  bottom: 30%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
