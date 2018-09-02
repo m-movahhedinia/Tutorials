@@ -1,0 +1,75 @@
+/* Split the screen in half */
+.splitTop {
+  height: 20%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.top{
+  background-color: #5558EC;
+}
+
+.splitLeft {
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 20%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.splitRight {
+  height: 100%;
+  width: 90%;
+  position: fixed;
+  z-index: 1;
+  top: 20%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #424444;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #cff0fc;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.leftText {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.bodyHead {
+  font-size: 180%;
+  font-weight: bold;
+}
+
+.bodyText {
+  font-size: 140%;
+}
